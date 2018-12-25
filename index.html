@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Own assessment </title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="box">
+<img src="avatar.jpg" />
+<h1 class="heading"> Spartan </h1>
+<form class="register-form">
+<input type="text" placeholder="Username"/>
+<input type="email" placeholder="Email Id"/>
+<input type="password" placeholder="password"/>
+<button class="btn"> Register </button>
+<p class="message"> Already Registered? <a href="#"> Login </a> </p>
+</form>
+<form class="login-form">
+<input type="text" placeholder="Username"/>
+<input type="password" placeholder="password"/>
+<button class="btn"> Login </button>
+<p class="message"> Not Registered? <a href="#"> Register </a> </p>
+</form>
+</div>
+<script src ='https://code.jquery.com/jquery-3.3.1.min.js'> </script>
+<script>
+$('.message a').click(function(){
+    $('form').animate({height:"toggle",opacity:"toggle"},"slow");
+});
+
+</script>
+</body>
+</html>

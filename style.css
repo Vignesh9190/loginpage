@@ -1,0 +1,95 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right, #ff5722, #ff9800);
+    height: 100vh;
+}
+
+.box
+{
+    border: 1px solid red;
+    background: #000;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    width:320px;
+    height:420px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+   /* position: absolute;  this is needed 
+    margin: auto; /* this is needed 
+    left: 0; /* this is needed 
+    right: 0; /* this is needed 
+    top: 0; /* this is needed 
+    bottom: 0; /* this is needed */
+
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.heading{
+    color: #fff;
+    margin-top: -40px;
+    margin-left: 70px;
+    border: 1px solid red;
+    border-color: #ff5722;
+    background: red;
+    margin-right: 70px;
+    padding-left: 35px;
+
+}
+
+.register-form, .login-form{
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+.login-form{
+    display: none;
+}
+
+input{
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 75%;
+}
+
+.btn
+{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #ff9800;
+    border: none;
+}
+
+.btn:hover
+{
+    background: red;
+}
+
+.message
+{
+    margin-top: 15px;
+    color: aquamarine;
+}
+
+.message a
+{
+    color: red;
+    text-decoration: none;
+}
